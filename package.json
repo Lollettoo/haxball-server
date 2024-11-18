@@ -1,15 +1,17 @@
 {
   "name": "haxball-server",
   "version": "1.0.0",
-  "description": "Haxball server project",
+  "description": "Server per Haxball utilizzando Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["haxball", "node.js", "server"],
+  "author": "Lollettoo",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "haxball-issues": "git+https://github.com/Lollettoo/haxball-issues.git"
-  },
-  "author": "",
-  "license": "ISC"
+    "haxball-issues": "https://github.com/Lollettoo/haxball-issues.git"
+  }
 }
