@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "haxball-issues": "https://github.com/Lollettoo/haxball-issues.git"
+    "haxball-issues": "https://github.com/Lollettoo/haxball-server.git"
   }
 }
